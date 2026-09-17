@@ -10,8 +10,7 @@ body {
     min-height: 100vh;
 }
 .header {
-    background: #2563eb;
-    color: white;
+    color:#000;
     text-align: center;
     padding: 2rem 1rem;
 }
@@ -38,7 +37,7 @@ body {
     min-height: 240px;
 }
 .post-card h2 {
-    color: #1d4ed8;
+    color: #000;
     font-size: 1.25rem;
     margin-bottom: 1rem;
     text-transform: capitalize;
