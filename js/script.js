@@ -35,7 +35,6 @@ const API_URL = "https://jsonplaceholder.typicode.com/posts";
         deleteButton.addEventListener("click", async () => {
             deleteButton.disabled = true;
             deleteButton.textContent = "Deleting...";
-
             try {
                 const response = await fetch(`${API_URL}/${post.id}`, {
                     method: "DELETE"
